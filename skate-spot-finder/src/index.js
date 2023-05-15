@@ -2,10 +2,16 @@ import React from 'react';
 import Landing from './landing-page/landing.js'
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { BrowserRouter } from 'react-router-dom';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Landing />
+  <React.StrictMode>
+    <BrowserRouter>
+      <Landing />
+    </BrowserRouter>
+  </React.StrictMode>
 );
 

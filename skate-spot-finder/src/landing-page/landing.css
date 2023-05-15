@@ -1,5 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+}
 .title{
     color: red;
     background-color: white;
     font-family: 'Barlow Condensed', sans-serif;
+    font-size: 5rem;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.headerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
